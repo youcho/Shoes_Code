@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>슈즈코드 Shoes Code</title>
+
+    <meta name="author" content="조영신">
+    <meta name="description" content="슈즈코드 / 슈즈코드는 구두방 사장님과 고객을 비대면으로 연결해주는 구두수선 O2O 배달 서비스입니다.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Open Graph-->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="슈즈코드">
+    <meta property="og:title" content="세상에서 가장 편리한 구두수선 대행 서비스 슈즈코드">
+    <meta property="og:description" content="슈즈코드 / 슈즈코드는 구두방 사장님과 고객을 비대면으로 연결해주는 구두수선 O2O 배달 서비스입니다.">
+    <meta property="og:image" content="/image/logo.png">
+    <!--<meta property="og:url" content="">  not yet-->
+
+    <!--Twitter Card-->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:site" content="슈즈코드">
+    <meta property="twitter:title" content="세상에서 가장 편리한 구두수선 대행 서비스 슈즈코드">
+    <meta property="twitter:description" content="슈즈코드 / 슈즈코드는 구두방 사장님과 고객을 비대면으로 연결해주는 구두수선 O2O 배달 서비스입니다.">
+    <meta property="twitter:image" content="/image/logo.png">
+    <!--<meta property="twitter:url" content="">  not yet-->
+
+    <!--favorite icon-->
+    <link rel="shortcut icon" href="/image/fa.ico">
+    <link rel="apple-touch-icon" href="/image/fa.ico">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media="(max-width: 1186px)" href="./css/main_medium.css">
+    <link rel="stylesheet" media="(max-width: 768px)" href="./css/main_small.css">
+
+    <script defer src="./main.js"></script>
+</head>
+<body>
+<div class="body__container">
+        
+    <!--Header-->
+    <header class="section">
+        <div class="inner clearfix">
+            <div class="menu-group float--left">
+                <div class="logo">
+                    <a href="#">슈즈코드</a>
+                </div>
+                <ul class="main-menu toggle">
+                    <li><a href="#">견적확인</a></li>
+                    <li><a href="#">요금안내</a></li>
+                    <li><a href="#">견적조회</a></li>
+                    <li><a href="#">예약조회</a></li>
+                    <li><a href="#">견적요청</a></li>
+                </ul>
+            </div>
+
+            <div class="sign-group float--right toggle">
+                <div class="btn-group">
+                    <a href="#" class="btn sign-in">Sign in</a>
+                    <a href="#" class="btn btn--primary sign-up">Sign up</a>
+                </div>
+                <form id="search-form" method="POST" action="">
+                    <input type="text" id="search" class="input--text" placeholder="Search ShoesCode">
+                    <input type="submit" value="검색">
+                </form>
+                <ul class="sub-menu">
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+
+            <div id="toggle-btn">Header Menu Toggle Button</div>
+
+        </div>
+    </header>
+    
+    <!--Visual-->
+    <section class="section section--visual">
+        <div class="inner">
+            <div class="summary">
+                <h2 class="summary__title">
+                    아직도,
+                </h2>
+                <h2 class="summary__subtitle">
+                    신발수선
+                </h2>
+                <h2 class="summary__subtitle">
+                    직접 가시나요?
+                </h2>
+                <h2 class="summary__subtitle">
+                    &nbsp;
+                </h2>
+                
+                <p class="summary__description">
+                    세상에서 가장 편리한 신발수선 대행 서비스
+                </p>
+                <p class="summary__description">
+                    클릭 몇 번으로 수십 곳의 주변 구둣방으로부터 견적을 받아보세요.
+                </p>
+            </div>
+
+            <form  id="sign-form" method="POST" action="">
+                <ul>
+                    <div class="btn-group">
+                        <a href="#"  type="picture" class="btn">사진 업로드</a>         
+                    </div>
+                    <li><input type="text" class="input--text" placeholder="수선종류를 선택해주세요"></li>
+                    <li><input type="collect" class="input--text" placeholder="수거장소를 입력해주세요"></li>
+                    <li>
+                        <input type="delivery" class="input--text" placeholder="배달장소를 입력해주세요">
+                        <p class="caption">사진을 올려주시면 더 정확한 견적을 받아보실 수 있습니다.</p>
+                    </li>
+                    <li>
+                        <button type="submit" class="btn btn--primary">견적 확인하기</button>
+                        <p class="caption">몇 분의 시간이 소요될 수 있습니다. 종료를 누르셔도 요청은 계속 진행됩니다.</p>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </section>
+
+    <!--Feature-->
+    <section class="section section--feature">
+        
+        <div class="summary">
+            <span class="summary__title">
+                슈즈코드의
+            </span>
+            <span class="summary__title" style="color: #00BFFF">
+                서비스
+            </span>
+            <span class="summary__title">
+                핵심
+            </span>
+        </div>
+
+        <div class="tiles">
+            <div class="inner">
+
+                <ul class="clearfix">
+                    <li>
+                        <img src="image/oneday.png" alt="하루안에">
+                        <h3>단 하루안에</h3>
+                        <p>깨끗해진 신발을 빠르게 신어보고 싶으시죠?</p>
+                    </li>
+                    <li>
+                        <img src="image/collect.png" alt="직접수거">
+                        <h3>직접수거</h3>
+                        <p>어디 있는지도 모르는 구두 수선방 직접 찾아가기 귀찮으셨죠?</p>
+                        <h4>매일 오전 7시에 일괄 수거합니다.</h4>
+                    </li>
+                    <li>
+                        <img src="image/delivery.png" alt="문 앞까지 배송">
+                        <h3>문 앞까지 배송</h3>
+                        <p>수선을 기다릴 필요 없이 오전 7시에 고객님이 계신 곳으로 배송해드립니다.</p>
+                        <h4>익일 오전 7시에 일괄 배송해드립니다.</h4>
+                    </li>
+                </ul>
+                <h5>※ 서울특별시 금천구, 가산디지털단지, 구로디지털단지 근처에 한정해서 서비스를 진행중입니다.</h5>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section section--aaa">
+        <div class="summary">
+            <span class="summary__title">
+                지역사회
+            </span>
+            <span class="summary__title" style="color: #00BFFF">
+                구두수선소
+            </span>
+            <span class="summary__title">
+                사장님들과의 상생을 도모합니다.
+            </span>
+            <p class="summary__description">
+                지역 곳곳에 있는 구두수선소 사장님들에게 일감을 제공하여, 상생을 도모하면서 구두 시장 전체를 혁신하고자 하는 사회적기업입니다.
+            </p>
+        </div>
+
+        <div class="video">
+            <div class="video-ratio">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/PKyJeh3QsNE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Where is-->
+    <section class="section section--where-is">
+        <div class="tiles">
+            <div class="inner">
+                <div class="summary">
+                    <div class="summary__title">
+                        슈즈코드
+                    </div>
+                    <div class="summary__description">
+
+                    </div>
+                </div>
+
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--Pring card-->
+    <div class="section section--pricing">
+        <div class="inner">
+            <div class="card">
+                <div class="cell cell1">
+                    여러분의 소중한 시간을 여러분을 행복하게 해주는 곳에 쓰도록, 슈즈코드가 도와드리겠습니다.
+                </div>
+                <div class="cell cell2">
+                    <a href="#" class="btn btn--primary">견적요청하러 가기</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="section">
+        <div class="inner clearfix">
+            <ul class="site-links float--right">
+                <li><a href="#">Contact ShoesCode</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+
+            <ul class="site-links float--left">
+                <li>ⓒ 2020 ShoesCode, Inc.</li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Status</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+
+            <a href="#" class="logo">
+                <?xml version="1.0" encoding="UTF-8"?>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100pt" height="25pt" viewBox="0 0 100 25" version="1.1">
+                    <defs>
+                        <image id="image5" width="418" height="104" xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                    <g id="surface2">
+                        <use xlink:href="#image5" transform="matrix(0.239234,0,0,0.240385,0,0)"/>
+                    </g>
+                </svg>
+            </a>
+        </div>
+    </footer>
+</div>
+<script>
+    function initMap() {
+        const myLatLng = {
+            lat: 37.451190923357196,
+            lng: 126.90736919016516            
+        }
+        const map = new google.maps.Map(
+            document.getElementById('map'),
+            {
+                center: myLatLng,
+                /*scrollwheel: false,*/
+                zoom: 18
+            }
+        );
+        const marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: '슈즈코드'
+        });
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTQIlxBn5AfKGvsfJiormAE1esN3fcCkg&callback=initMap" async defer></script>
+</body>
+</html>
